@@ -15,9 +15,9 @@ import mysql.connector
 app = Flask(__name__)
 
 connection = mysql.connector.connect(
-    host='localhost', 
-    user='root', 
-    passwd='Admin@123',
+    host='mydb.cbqsieauu472.us-east-1.rds.amazonaws.com', 
+    user='admin', 
+    passwd='Admin1031',
     database='businessanatomy')
 
 app.secret_key ="4321"
